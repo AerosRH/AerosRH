@@ -1,0 +1,113 @@
+body{
+    margin: 0;
+    font-family: 'Mulish', sans-serif;
+}
+.header{
+    background-color: #121f3d;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header img{
+    margin-top: 10px;
+    width: 200px;
+    margin-left: 30px;
+}
+.register{
+    background: linear-gradient(#121f3d, #02423a);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Mulish', sans-serif;
+    letter-spacing: 1px;
+    padding: 0, 30px;
+    min-height: calc(100vh - 200px)
+}
+.register__conteiner{
+    color: white;
+    background-color: rgba(255, 255,255, 0.1);
+    border: 2px solid white;
+    border-radius: 25px;
+    box-shadow: 0px 0px 8px 1px white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    letter-spacing: 1px;
+    padding: 60px 68px 40px;
+    height: 550px;
+    width: 300px;
+}
+.register__conteiner--form{
+    display: flex;
+    flex-direction: column;
+}
+.input{
+    background-color: transparent;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 2px solid white;
+    color: white;
+    font-family: 'Mulish', sans-serif;
+    font-size: 16x;
+    letter-spacing: 0.5px;
+    outline: none;
+    padding: 0 20px;
+    height: 50px;
+}
+::placeholder{
+    color: white;
+}
+.button{
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    border-radius: 30px;
+    color: white;
+    cursor: pointer;
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    height: 40px;
+    letter-spacing: 1px;
+    margin: 30px;
+}
+.register__conteiner--sesion{
+    font-size: 14px;
+}
+.register__conteiner--sesion a{
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+.register__conteiner--sesion a:hover{
+    text-decoration: underline;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    background-color: #02423a;
+    height: 100px;
+    width: 100%;
+}
+.footer a{
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    padding-left: 20px;
+    text-decoration: none;
+}
+.footer a:hover{
+    text-decoration: underline;
+}
+@media only screen and(max-width: 600px){
+    .register__conteiner{
+        background-color: transparent;
+        border: none;
+        padding: 0;
+        width: 100%;
+    }
+}
